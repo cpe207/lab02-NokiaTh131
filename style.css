@@ -1,0 +1,42 @@
+h3 {
+  text-align: center;
+  color: rgba(23, 14, 88, 0.723);
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(23, 14, 88, 0.723);
+  font-style: italic;
+}
+
+h4 {
+  text-align: center;
+  color: rgba(23, 14, 88, 0.723);
+  font-style: italic;
+}
+
+.skill-header {
+  text-align: left;
+}
+
+.skill-container {
+  border: solid rgba(23, 14, 88, 0.723);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 3px solid rgba(23, 14, 88, 0.723);
+  padding: 20px;
+  width: 320px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 10px;
+}
