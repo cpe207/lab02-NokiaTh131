@@ -4,38 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Portfolio</h1>
-    <p style="text-align: center; margin-right: 5px">
-      <a href="/index.html">Home</a>
-      |
-      <a href="/experience.html">experience</a>
-      |
-      <a href="/contact.html"> Contract </a>
-    </p>
-    <img
-      src="images/roob.jpg"
-      width="220px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <h3>Jakkapong Jinasen</h3>
-    <p style="text-align: center">
-      My name is Gear.Hi! Nice to meet you all. <br />
-      I am Batman.
-    </p>
-    <h3>experience</h3>
-    <div id="rcorners2">
-      <h3 class="skill-header">Project</h3>
-      <p>
-        I used to develop hotel mangement software in compro Project.I often
-        help my friend debug code.
-      </p>
-    </div>
-    <div id="rcorners2">
-      <h3 class="skill-header">Art</h3>
-      <p>I created music.I used to drawing compete and got 3rd.</p>
+    <div>
+      <ul
+        class="nav justify-content-center border-bottom border-2 border-dark bg-dark"
+      >
+        <li class="nav-item">
+          <a
+            class="nav-link active fs-3 text-white fw-bold"
+            aria-current="page"
+            href="/index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-3 text-white fw-bold" href="/experience.html"
+            >Experience</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-3 text-white fw-bold" href="/Gallary.html"
+            >Gallary</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-3 text-white fw-bold" href="/contact.html"
+            >Contract</a
+          >
+        </li>
+      </ul>
+
+      <div
+        class="text-center mb-4 mx-auto px-3 fw-bold fs-3 py-2 text-white bg-dark mt-4"
+        style="max-width: 300px"
+      >
+        Experience
+      </div>
+
+      <div
+        style="max-width: 900px; max-height: 700px; display: block"
+        class="d-flex mx-auto flex-column bd-highlight"
+      >
+        <div
+          class="d-flex border border-dark me-5 rounded-top d-none d-sm-block shadow"
+          style="
+            background-image: url(images/website-hosting-concept-with-search-bar.jpg);
+            background-repeat: no-repeat;
+            background-size: 900px 500px;
+            background-position: top;
+            padding: 100px;
+          "
+        ></div>
+        <div
+          class="d-flex border border-dark me-5 shadow rounded-bottom mb-4"
+          style="background-color: #ffffff"
+        >
+          <div class="mx-4 mt-4">
+            <div class="fw-bold mb-2 text-light bg-dark px-2">Website</div>
+            <p>
+              Website Development: I've built user-friendly websites using HTML,
+              CSS, and JavaScript. By collaborating with clients and following
+              best practices, I've created visually appealing and functional
+              websites that meet their needs.
+            </p>
+          </div>
+        </div>
+        <div
+          class="d-flex border border-dark me-5 rounded-top d-none d-sm-block shadow"
+          style="
+            background-image: url(images/database-computer-system-digital-storage-concept.jpg);
+            background-repeat: no-repeat;
+            background-size: 900px 500px;
+            background-position: top;
+            padding: 100px;
+          "
+        ></div>
+        <div
+          class="d-flex border me-5 shadow rounded-bottom border-dark mb-4"
+          style="background-color: #ffffff"
+        >
+          <div class="mx-4 mt-4">
+            <div class="fw-bold mb-2 text-light bg-dark px-2">
+              Project Hotel software
+            </div>
+            <p>
+              Database Management: I've worked with SQL to manage and organize
+              data effectively. This includes creating, querying, and
+              maintaining databases, ensuring data integrity and accessibility
+              for smooth operations.
+            </p>
+          </div>
+        </div>
+        <div
+          class="d-flex border border-dark me-5 rounded-top d-none d-sm-block shadow"
+          style="
+            background-image: url(images/artist-s-hand-close-up-background-picture.jpg);
+            background-repeat: no-repeat;
+            background-size: 900px 500px;
+            background-position: center;
+            padding: 100px;
+          "
+        ></div>
+        <div
+          class="d-flex border me-5 shadow rounded-bottom border-dark"
+          style="background-color: #ffffff"
+        >
+          <div class="mx-4 mt-4">
+            <div class="fw-bold mb-2 text-light bg-dark px-2">
+              Art Competition
+            </div>
+            <p>
+              I participated in a regional drawing competition, demonstrating my
+              artistic skills and creativity. It was a valuable experience where
+              I received feedback from judges, allowing me to grow and refine my
+              abilities as an artist.
+            </p>
+          </div>
+        </div>
+        <p class="text-center text-muted p-4">
+          © 2023 NokiaTh131.com by NokiaTh131
+        </p>
+      </div>
     </div>
   </body>
 </html>
